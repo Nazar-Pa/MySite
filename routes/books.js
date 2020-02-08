@@ -73,29 +73,6 @@ router.get('/:id/edit', async (req, res) => {
     
 })
 
-// router.get('/:id/edit', async (req, res) => {
-//     try {
-//         const book = await Book.findById(req.params.id)
-//         res.render('books/edit', {book: book
-
-//         })
-//     } catch {
-
-//     }
-// })
-
-// router.put('/:id', async (req, res) => {
-//     try {
-        
-//     }
-//     catch {
-
-//     }
-// })
-
-
-
-
 // Update Book Route
 router.put('/:id', async (req, res) => {
     let book
